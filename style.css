@@ -1,0 +1,36 @@
+.logo{
+    width: 5rem;
+}
+
+.subtitle{
+    font-size: 20px;
+}
+
+.subtitle2{
+    font-size: 15px;
+}
+
+.box{
+    background-color: red;
+}
+
+.blueIcon{
+    width: 2.5rem;
+    padding: 1.5rem 0rem 1.2rem 1.2rem;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.contact ul{
+    display: flex;
+}
+
+.blackIcon{
+    width: 5rem;
+    padding: 1.5rem 0rem 1.2rem 1.2rem;
+    
+}
