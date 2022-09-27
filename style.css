@@ -17,6 +17,11 @@
     box-shadow: 5px 0px 10px 2px;
 }
 
+.logo-field{
+    display: block;
+    margin: auto;
+}
+
 .logo{
     width: 9rem;
     padding: 1rem 0rem 0rem 1rem;
@@ -42,7 +47,7 @@
     color: rgba(194, 161, 58, 1);
     text-decoration: none;
     font-size: 31px;
-    transition: color 1s, background-color;
+    transition: color 1s;
     text-align: center;
     display: block;
     
@@ -52,7 +57,8 @@
 }
 
 .nav-opt:hover{
-    color: rgb(206, 162, 29);
+    /* color: rgb(206, 162, 29); */
+    color:green;
 }
 
 .blueIcon{
@@ -69,7 +75,6 @@
     font-size: 40px;
     font-weight: bold;
     font-family: 'carnas-blackuploaded_file';
-    line-height: 1rem;
     padding: 2rem 0rem 2rem 0rem;
 }
 
@@ -79,8 +84,7 @@
     font-weight: bold;
     font-family: 'carnas-blackuploaded_file';
     text-align: right;
-    line-height: 1rem;
-    padding: 0rem 2rem 2rem 0rem;
+    margin: 0rem 2rem 2rem 0rem;
 }
 
 .text-content-left{
@@ -98,9 +102,17 @@
     display: flex;
 }
 
+.blackIcons-list{
+    display: flex;
+    justify-content: center;
+}
+
 .blackIcon{
     width: 5rem;
     padding: 1.5rem 0rem 1.2rem 1.2rem;
-    align-items: center;
     
+}
+
+.blackIcon:not(:first-child){
+    margin-left: 10rem;
 }
