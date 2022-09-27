@@ -1,36 +1,106 @@
-.logo{
-    width: 5rem;
-}
-
-.subtitle{
-    font-size: 20px;
-}
-
-.subtitle2{
-    font-size: 15px;
+.page{
+    background-image: url(/Sources/BackgroundImage.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .box{
-    background-color: red;
+    background-color: rgba(22, 22, 22, 1);
+    position: fixed;
+    display: block;
+    width: 12rem;
+    height: 100vh;
+    z-index: 10px;
+    box-shadow: 5px 0px 10px 2px;
+}
+
+.logo{
+    width: 9rem;
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+.subtitle{
+    font-size: 35px;
+    padding: 0.4rem 0rem 0rem 2rem;
+    color: white;
+}
+
+.subtitle2{
+    font-size: 25px;
+    padding: 0.2rem 0rem 2rem 3rem;
+    color: white;
+}
+
+.nav-layout{
+    border-bottom: 1px solid white;
+}
+
+.nav-opt{
+    color: rgba(194, 161, 58, 1);
+    text-decoration: none;
+    font-size: 31px;
+    transition: color 1s, background-color;
+    text-align: center;
+    display: block;
+    
+    /* Lines */
+    line-height: 2.3rem;
+    border-top: 1px solid white;
+}
+
+.nav-opt:hover{
+    color: rgb(206, 162, 29);
 }
 
 .blueIcon{
-    width: 2.5rem;
-    padding: 1.5rem 0rem 1.2rem 1.2rem;
+    width: 2rem;
+    /* padding: 2rem 0.5rem 1.2rem 1.2rem; */
 }
 
-h1{
+.content{
+    margin-left: 13rem;
+}
+
+.Titles-left{
+    color: white;
     font-size: 40px;
     font-weight: bold;
+    font-family: 'carnas-blackuploaded_file';
+    line-height: 1rem;
     padding: 2rem 0rem 2rem 0rem;
 }
 
-.contact ul{
+.Titles-right{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'carnas-blackuploaded_file';
+    text-align: right;
+    line-height: 1rem;
+    padding: 0rem 2rem 2rem 0rem;
+}
+
+.text-content-left{
+    font-size: 17px;
+    font-family: 'sinkin_sans400_regular';
+}
+
+.text-content-right{
+    text-align: right;
+    font-size: 17px;
+    font-family: 'sinkin_sans400_regular';
+}
+
+#contact ul{
     display: flex;
 }
 
 .blackIcon{
     width: 5rem;
     padding: 1.5rem 0rem 1.2rem 1.2rem;
+    align-items: center;
     
 }
