@@ -4,6 +4,7 @@
         <meta charset= "UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Jorge Wender | FullStack Developer</title>
+        <link rel="icon" type="imagem/png" href="Sources/favorite_icon.png" />
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="/Sources/font/carnas_black/stylesheet.css">
@@ -17,12 +18,13 @@
                 <p class="subtitle">FullStack</p>
                 <p class="subtitle2">Developer</p>
                 <nav class="nav-layout">
+                    <a class="nav-opt" href="#Introduction">Introduction</a>
                     <a class="nav-opt" href="#about">About</a>
                     <a class="nav-opt" href="#skills">skills</a>
                     <a class="nav-opt" href="#project">project</a>
                     <a class="nav-opt" href="#contact">contact</a>
                 </nav>
-                <ul>
+                <ul class="social_link">
                     <li><a href="https://www.linkedin.com/in/jorgewenderjunior/"><img class="blueIcon" src="/Sources/linkedin_logo_blue.png"></a></li>
                     <li><a href="https://github.com/JuniorWender"><img class="blueIcon" src="/Sources/github_logo_blue.png"></a></li>
                     <li><a href="mailto:juniorwender1996@gmail.com"><img class="blueIcon" src="/Sources/Email_blue_icon.png"></a></li>
@@ -31,34 +33,65 @@
         </header>
 
         <main class="content">
-            <home id="main">
+            <home id="Introduction">
                 <h1 class="Titles-left"> Hello,<br> Welcome To My Portfolio </h1>
                 <p class="text-content-left"> On this website i’ll show to you informations about me , <br> projects with i worked alone or with a team and what are my skills.</p>
             </home>
-            
+
             <section id="about">
                 <h1 class="Titles-right">Hey! My Name Is Jorge Wender.<br> <span>I’m a FullStack Developer.</span> </h1>
-                <p class="text-content-right">I’m brazilian and i started studying programming on 2013 , but i only take my first job with this recently on 2022. Before that i worked like a streamer on twitch/youtube and learned a little about Photoshop, video Editing,social media and designer,and now a days i used this knolowdges for help me to designer my Front-End projects like this.</span>
+                <p class="text-content-right">I’m brazilian and i started studying programming on 2013 , but i only take my first job with this recently on 2022. Before that i worked like a streamer on twitch/youtube and learned a little about Photoshop, video Editing,social media and designer,and now a days i used this knolowdges for help me to designer my Front-End projects like this.</p>
             </section>
 
             <section id="skills">
-                <h1 class="Titles-left">Skills and Experiences</h1>
-                <p class="text-content-left">I started working with programming in a software called portsolutions i resolved bugs and helped the team to improve the software , this software controls all tasks in a port and two big componys use it (ArcellorMital and Ternium) , this sotware run in a .NET and Angular but now a days i work creating a application for a fintech  in Asp.Net.</span>
+                <div class="organizer-skills">
+                    <div class="title_content">
+                        <h1 class="Titles-left">Skills and Experiences</h1>
+                        <p class="text-content-left">I started working with programming in a software called portsolutions i resolved bugs and helped the team to improve the software , this software controls all tasks in a port and two big componys use it (ArcellorMital and Ternium) , this sotware run in a .NET and Angular but now a days i work creating a application for a fintech  in Asp.Net.</p>
+                    </div>
+                    <div class="skills_sliders_box">
+                        <div class="skills_text"> English </div> 
+                        <div class="meter">
+                            <span style="width: 60%; background-color: rgb(233, 212, 21);"></span>
+                        </div>
+                        <div class="skills_text">Front-End </div>
+                        <div class="meter">
+                            <span style="width: 50%; background-color: rgb(0, 0, 0);"></span>
+                        </div>
+                        <div class="skills_text">Back-End </div>
+                        <div class="meter">
+                            <span style="width: 70%; background-color: rgb(233, 212, 21);"></span>
+                        </div>
+                        <div class="skills_text">Data Scienceder</div>
+                        <div class="meter">
+                            <span style="width: 30%; background-color: rgb(0, 0, 0);"></span>
+                        </div>
+                        <div class="skills_text">Tools </div>
+                        <div class="meter">
+                            <span style="width: 60%; background-color: rgb(233, 212, 21);"></span>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section id="project">
                 <h1 class="Titles-right">Projects</h1>
+                <ul>
+                    <li class="box-teste">Automatic SQL Generator <footer><a href="https://github.com/JuniorWender/Automatic_Translate"><img class="projects-icon" src="/Sources/SQL_logo_icon.png"></a></footer></li>
+                    
+                    <li>teste</li>
+                </ul>
             </section>
 
             <section id="contact">
                 <h1 class="Titles-left">Contact</h1>
-                <span class="text-content-left">I’m interested in jobs opportunities. I’d like to work for a internacional company, But if you have other opportunities, don’t hesitate to send me a offer. You can enter in contact with the links bellow.</span>
+                <p class="text-content-left">I’m interested in jobs opportunities. I’d like to work for a internacional company, But if you have other opportunities, don’t hesitate to send me a offer. You can enter in contact with the links bellow.</p>
                 <ul class="blackIcons-list">
                     <li class="blackIcon"><a href="https://www.linkedin.com/in/jorgewenderjunior/"><img class="blackIcon" src="/Sources/linkedin_logo_black.png"></a></li>
                     <li class="blackIcon"><a href="https://github.com/JuniorWender"><img class="blackIcon" src="/Sources/github-logo_black.png"></a></li>
                     <li class="blackIcon"><a href="mailto:juniorwender1996@gmail.com"><img class="blackIcon" src="/Sources/Email_black_icon.png"></a></li>
                 </ul>
-            </section>
+            </section> 
         </main>
     </body>
 </html>
