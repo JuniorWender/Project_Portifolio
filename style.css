@@ -1,5 +1,5 @@
 .page{
-    background-image: url(/Sources/BackgroundImage.webp);
+    background-image: url(/Sources/Background2Image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -78,7 +78,7 @@
 }
 
 .Titles-left{
-    color: white;
+    color: rgb(240, 190, 39);
     font-size: 50px;
     font-weight: bold;
     font-family: 'carnas-blackuploaded_file';
@@ -86,12 +86,13 @@
 }
 
 .Titles-right{
-    color: white;
+    color: rgb(240, 190, 39);
     font-size: 50px;
     font-weight: bold;
     font-family: 'carnas-blackuploaded_file';
     margin: 2rem 2rem 1rem 0rem;
     text-align: right;
+    
 }
 
 .text-content-left{
@@ -171,21 +172,29 @@
     background-color: grey;
 }
 
+.projects{
+    text-align: center;
+}
+
 .projects-icon{
     margin: 5px 0px 5px 0px;
     width: 100px;
 }
 
-.blackIcons-list{
+.footerIcon-list{
     display: flex;
     justify-content: center;
 }
 
-.blackIcon{
+.footerIcon{
     width: 5rem;
     padding: 1.5rem 0rem 1.2rem 1.2rem;
 }
 
-.blackIcon:not(:first-child){
+.footerIcon:not(:first-child){
     margin-left: 10rem;
 }
+
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
