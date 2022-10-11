@@ -1,5 +1,5 @@
 .page{
-    background-image: url(/Sources/Background2Image.jpg);
+    background-image: url(/Sources/BackgroundImage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -157,23 +157,21 @@
     border-bottom-left-radius: 20px;
 }
 
-.box-teste{
+.carousel_itens{
+display: inline-block;
+text-align: center;
+width: 30%;
+vertical-align: top;
+margin: 0 1.5%;
+padding: 30px 20px;
+box-sizing: border-box;
+}
+
+.carousel_title{
     color:white;
     font-size: 18px;
     line-height: 2rem;
     font-family: 'sinkin_sans400_regular';
-}
-
-.box-teste li{
-    align-content: center;
-    float: left;
-    width: 200px;
-    height: 200px;
-    background-color: grey;
-}
-
-.projects{
-    text-align: center;
 }
 
 .projects-icon{
@@ -194,7 +192,4 @@
 .footerIcon:not(:first-child){
     margin-left: 10rem;
 }
-
-
-/* -------------------------------------------------------------------------------------------------------------------- */
 
